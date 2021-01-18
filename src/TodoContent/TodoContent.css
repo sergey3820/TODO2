@@ -1,0 +1,11 @@
+.content_wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 50%;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(41,165,180,1) 14%, rgba(36,115,186,1) 100%);
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+}

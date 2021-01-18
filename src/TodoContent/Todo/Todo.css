@@ -1,0 +1,56 @@
+.todo_wrapper {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 3%;
+  padding: 2%;
+  background: white;
+  border: 1px solid white;
+}
+
+.done {
+    font-size: 25px;
+    color: #6ADD30;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.done:hover {
+    color: orange;
+    transition:0.25s ease;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 13%;
+    width: 100%;
+}
+
+.t {
+   text-decoration: line-through;
+}
+
+.dBtn {
+    color: orange;
+}
+
+.close {
+    font-size: 25px;
+    color: #dd3081;
+    cursor: pointer;
+    transition: 0.25s ease;
+}

@@ -1,0 +1,84 @@
+.header_wrapper {
+    background-color: #25B999;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.header_inp {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    width: 80%;
+    background-color: #51C7AD;
+    border: 1px solid #51c7AD;
+}
+
+.header_inp::placeholder {
+    color: white;
+    padding-left: 3%;
+}
+
+.add {
+    background: white;
+    color: #23B896;
+    font-size: 23px;
+    padding: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    position: absolute;
+    left: 60%;
+    border-radius: 60px;
+    border: 1px solid #23B896;
+}
+
+.add:hover {
+    background: #23B896;
+    color: white;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .add {
+      left: 62%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+     .add {
+         left: 65%;
+     }
+}
+
+@media only screen and (max-width: 800px) {
+ 
+}
+
+@media only screen and (max-width: 767px) {
+    .add {
+        left: 70%;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    .add {
+        left: 75%;
+        font-size: 16px;
+        padding: 2%;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    .add {
+        left: 85%;
+    }
+ }
